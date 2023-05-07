@@ -112,11 +112,11 @@
 	margin-bottom: 10px;
 }
 
-.header--title--wrap >h1 > a{
-	color:black;
+.header--title--wrap>h1>a {
+	color: black;
 }
 
-.header--title--wrap >h1 > a:hover{
+.header--title--wrap>h1>a:hover {
 	text-decoration: none;
 }
 </style>
@@ -124,7 +124,9 @@
 <body>
 	<div class="header--wrap">
 		<div class="header--title--wrap">
-			<h1><a href="/green_blog.jsp"> Green's Blog</a></h1>
+			<h1>
+				<a href="/green_blog.jsp"> Green's Blog</a>
+			</h1>
 			<!-- Button to Open the Modal -->
 			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
 				<span class="material-symbols-outlined"> settings </span>

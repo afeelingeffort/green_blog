@@ -78,9 +78,7 @@
 	{
 	padding: 5px;
 }
-.detail--comment--write--wrap {
-	margin-bottom: 50px;
-}
+
 .detail--comment--input--wrap {
 	display: flex;
 	margin-top: 30px;
@@ -91,13 +89,13 @@
 }
 
 .detail--btn {
-position: absolute;
-bottom: 20px;
-right: 20px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
 }
 
-.detail--comment--btn--wrap{
-position: relative;
+.detail--comment--btn--wrap {
+	position: relative;
 }
 </style>
 <div class="detail--all--wrap">
@@ -128,7 +126,6 @@ position: relative;
 		</div>
 	</div>
 
-	<div>
 		<div class="detail--comment--wrap">댓글 3</div>
 		<div class="detail--comment--reply--wrap">
 			<div>
@@ -175,11 +172,8 @@ position: relative;
 				<input type="text" style="width: 365px;" placeholder="이름"> <input type="password" style="width: 365px;" placeholder="비밀번호">
 			</div>
 			<div class="detail--comment--btn--wrap">
-				<textarea class="detail--comment--textarea-wrap" style="width: 730px; height: 200px;  resize: none;" placeholder="여러분의 소중한 댓글을 입력해주세요"></textarea>
+				<textarea class="detail--comment--textarea-wrap" style="width: 730px; height: 200px; resize: none;" placeholder="여러분의 소중한 댓글을 입력해주세요"></textarea>
 				<button type="button" class="btn btn-primary detail--btn" data-dismiss="modal">등록</button>
 			</div>
 		</div>
-	</div>
-</div>
-</body>
-</html>
+<%@ include file="/layout/footer.jsp"%>

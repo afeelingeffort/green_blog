@@ -65,8 +65,8 @@
 						tabsize : 2,
 						height : 400,
 						width : 800,
-						minHeight : null,
-						maxHeight : null,
+						minHeight : 400,
+						maxHeight : 400,
 						toolbar : [ [ "style", [ "style" ] ],
 								[ "color", [ "color" ] ],
 								[ "para", [ "ul", "ol", "paragraph" ] ],
@@ -77,5 +77,4 @@
 		$("#summernote").summernote();
 	});
 </script>
-</body>
-</html>
+<%@ include file="/layout/footer.jsp"%>
